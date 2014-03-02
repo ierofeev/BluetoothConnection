@@ -32,7 +32,7 @@ public class BluetoothConnection {
             
             // Retrieve the name of the local Bluetooth device
             String name = local.getFriendlyName();
-            System.out.println(address +"\n "+name);
+            System.out.println("Local device "+address +"\n "+"name"+name);
  
             deviceDiscovery();
             
